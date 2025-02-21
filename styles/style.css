@@ -5,7 +5,7 @@
   padding: 92px 29px 95px 19px;
 }
 
-.header__menu { 
+.header__menu {
   display: flex; 
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@
   gap: 32px;
  }
 
-.header__link {    
+.header__link {
   text-decoration: underline;
 }            
 
@@ -37,7 +37,7 @@
   text-underline-offset: 4px;
 }
 
-.header__logo { 
+.header__logo {
   display: block;
   width: 148px;
   height: 105px;
@@ -70,7 +70,7 @@
   background-image: url(/images/cover.jpg);
   background-size: cover;
   background-position: center;
-  z-index: 0 
+  z-index: 0;
 }
 
 .overlay {
@@ -114,7 +114,7 @@
 
 .no-letter-spacing {
   word-spacing: 0px;
-  letter-spacing: 0px; 
+  letter-spacing: 0px;
 }
 
 .cover__description {
@@ -187,7 +187,6 @@
   background-position: center;
   z-index: 0;
   padding: 48px 40px;
-
 }
 
 .card_type_book {
@@ -248,14 +247,14 @@
   font-size: 20px;
   line-height: 23.48px;
   text-underline-offset: 4px;
-  text-decoration-thickness: 1px; 
+  text-decoration-thickness: 1px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
   padding: 35px 24px 0; 
-  gap: 25px; 
+  gap: 25px;
 }
 
 .about__logo {
@@ -303,7 +302,6 @@
 .footer__address {
   letter-spacing: 0.18px;
   list-style-type: none;
-  padding-left: 0px;
 }
 
 .footer__links-list {
