@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 
-.links-list-item_no-bullit{
+.links-list-item_no-bullit {
   list-style-type: none;
 }
 
@@ -85,7 +85,7 @@
   z-index: -1;
 }
 
-.aligned{
+.aligned {
   display: flex;
   flex-direction: column;
   padding: 165px 50px 106px;
