@@ -6,7 +6,7 @@
 }
 
 .header__menu {
-  display: flex; 
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,7 +57,7 @@
 }
 
 .text_address {
-  font-style: normal; 
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
@@ -95,7 +95,7 @@
 .aligned-text {
   display: block;
   color:  rgb(255, 255, 255);
-  font-style: normal; 
+  font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
@@ -235,7 +235,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 35px 24px 0; 
+  padding: 35px 24px 0;
   gap: 25px;
 }
 
