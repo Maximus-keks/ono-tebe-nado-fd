@@ -67,7 +67,7 @@
 
 .cover {
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -138,7 +138,7 @@
   appearance: none;
   width: 256px;
   height: 51px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid currentColor;
   background: transparent;
   padding: 12px 32px 11px 31px;
   font-size: 22px;
@@ -155,7 +155,7 @@
  }
 
 .lots__heading {
-  padding: 0px 915px 27px 64px;
+  padding: 0px 64px 27px;
 
 }
  .section__header__text {
@@ -168,7 +168,7 @@
 .lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  gap: 20px 25px;
   padding: 0px 24px 32px;
 }
 
@@ -180,35 +180,29 @@
   text-decoration: none;
 }
 
-.card_type_film {
+.card {
   position: relative;
-  background-image: url(/images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
   z-index: 0;
   padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 596px;
+  max-width: 334px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  position: relative;
-  background-image: url(/images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 0; 
-  padding: 48px 40px;
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  position: relative;
-  background-image: url(/images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 0; 
-  padding: 48px 40px;
-}
-
-.card_background_poziton {
-  padding: 48px 40px;
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -227,18 +221,6 @@
   font-weight: 400;
   line-height: 24px;
   color: rgb(255, 255, 255);
-}
-
-.card_type_film_text {
-  padding: 278px 0 0;
-}
-
-.card_type_book_text {
-  padding: 35px 0 0;
-}
-
-.card_type_picture_text {
-  padding: 131px 0 0;
 }
 
 .lots__look-more-link {
@@ -279,7 +261,7 @@
 }
 
 .about__title {
-  padding: 100px 402px 100px 0;
+  padding: 100px 0;
 }
 
 .about__text {
